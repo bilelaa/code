@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./images.jpg" type="image/x-icon"/>
+</head>
+<body>
+    <input tupe="text" id="input" placeholder="whats your name"/>
+    <button type="button" onclick="test()">
+        test me
+    </button>
+    <div id="name">
+    </div>
+    <script> function test(){
+        document.getElementById("name").innerHTML=document.getElementById("input").value;
+    }
+    </script>
+</body>
+</html>

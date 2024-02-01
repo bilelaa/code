@@ -1,1 +1,3 @@
-console.log("bonjour")
+functionn click(){
+    alert("button clicked");
+}
